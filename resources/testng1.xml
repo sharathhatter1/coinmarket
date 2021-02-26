@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="PlaceTest1">
+		<parameter name="email" value="yogita@stylishop.com"/>
+		<parameter name="store" value="AE"/>
+		<parameter name="language" value="EN"/>
+		<parameter name="paymentMethod" value="card"/>
+		<parameter name="noOfProducts" value="1"/>
+		<classes>
+			<class name="com.runner.classesTestng.PlaceBulkOrdersTest"> </class>
+		</classes>
+	</test>
+
+	<test name="PlaceTest2">
+		<parameter name="email" value="yogita@stylishop.com"/>
+		<parameter name="store" value="AE"/>
+		<parameter name="language" value="EN"/>
+		<parameter name="paymentMethod" value="cod"/>
+		<parameter name="noOfProducts" value="1"/>
+		<classes>
+			<class name="com.runner.classesTestng.PlaceBulkOrdersTest"> </class>
+		</classes>
+	</test>
+
+	<test name="PlaceTest3">
+		<parameter name="email" value="yogita@stylishop.com"/>
+		<parameter name="store" value="AE"/>
+		<parameter name="language" value="AR"/>
+		<parameter name="paymentMethod" value="card"/>
+		<parameter name="noOfProducts" value="1"/>
+		<classes>
+			<class name="com.runner.classesTestng.PlaceBulkOrdersTest"> </class>
+		</classes>
+	</test>
+
+	<test name="PlaceTest4">
+		<parameter name="email" value="yogita@stylishop.com"/>
+		<parameter name="store" value="AE"/>
+		<parameter name="language" value="AR"/>
+		<parameter name="paymentMethod" value="cod"/>
+		<parameter name="noOfProducts" value="1"/>
+		<classes>
+			<class name="com.runner.classesTestng.PlaceBulkOrdersTest"> </class>
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->
