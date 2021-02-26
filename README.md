@@ -11,6 +11,10 @@ Run the RunTest.java file
 4. Maven (Build tool)
 5. Rest assured
 
+Note -
+Chrome driver should be downloaded from https://chromedriver.chromium.org/downloads and should be copied to Usr/local/bin 
+Check Apple Pref -> Security -> allow chrome 
+
 **Limitations**
 -> Tests are supported on Windows/Mac machines only but created framework in Mac machine
 ->Browser support limited to Chrome. But can be extend to Firefox and Safari
